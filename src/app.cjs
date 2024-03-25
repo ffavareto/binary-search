@@ -19,3 +19,6 @@ function search(arr, val) {
 }
 
 module.exports = { search };
+
+const result = search([76, 543, 2123, 4567], 2123);
+console.log(result);
